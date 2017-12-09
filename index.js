@@ -3,7 +3,7 @@ function login() {
     
     if (password === 'cookiesforever') {
         document.getElementById('error').classList.add('hide');
-        window.location.href = 'content.html';
+        window.location.href = 'home.html';
     } else {
         document.getElementById('error').classList.remove('hide');
     }
